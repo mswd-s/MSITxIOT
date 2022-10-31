@@ -1,0 +1,1 @@
+This directory will contains the ino code which was built with backend of sinric pro.
