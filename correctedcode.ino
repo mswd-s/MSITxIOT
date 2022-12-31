@@ -4,8 +4,8 @@
 
 #define ssid "HGW-F89FEC"  //WiFi SSID
 #define password "8700099615"  //WiFi Password
-#define FIREBASE_HOST "msitxiot-default-rtdb.firebaseio.com"  
-#define FIREBASE_AUTH "jZho7ZiPhBk5xuxI9AZ6Eo1B0HIU8zudTR6CvFAv"
+#define FIREBASE_HOST "msitxxxxxxxxxxxxxxxxxxx.firebaseio.com"  
+#define FIREBASE_AUTH "jZhoxxxxxxxxxxxxxxxxxxxxxxxxxxxxTR6CvFAv"
 #define wifiLed D4
 FirebaseData firebaseData;
 
