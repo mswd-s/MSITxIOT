@@ -52,42 +52,44 @@ Firebase.begin(FIREBASE_HOST,FIREBASE_AUTH);
 Firebase.get(firebaseData, "/D1");
 String D = firebaseData.stringData();
 
-Firebase.get(firebaseData, "/D2");
-String De = firebaseData.stringData();
-
-Firebase.get(firebaseData, "/D3");
-String Der = firebaseData.stringData();
-
-Firebase.get(firebaseData, "/D4");
-String Det = firebaseData.stringData();
-
-if (D=="1"){
+  if (D=="1"){
   digitalWrite(first_1,HIGH);
 }else if (D=="0"){
   digitalWrite(first_1,LOW);
 }
+  
+Firebase.get(firebaseData, "/D2");
+String De = firebaseData.stringData();
 
-
-if (De=="1"){
+  
+  if (De=="1"){
   digitalWrite(first_2,HIGH);
 }else if (De=="0"){
   digitalWrite(first_2,LOW);
 }
 
+  
+  
+Firebase.get(firebaseData, "/D3");
+String Der = firebaseData.stringData();
 
-if (Der=="1"){
+  
+  if (Der=="1"){
   digitalWrite(first_3,HIGH);
 }else if (Der=="0"){
   digitalWrite(first_3,LOW);
 }
 
+  
+Firebase.get(firebaseData, "/D4");
+String Det = firebaseData.stringData();
 
 if (Det=="1"){
   digitalWrite(first_4,HIGH);
 }else if (Det=="0"){
   digitalWrite(first_4,LOW);
 }
-delay(100);
+//delay(100);
 //String D = firebaseData.stringData();
 //Serial.println(D);
 
