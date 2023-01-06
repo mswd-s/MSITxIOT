@@ -2,8 +2,8 @@
 #include <FirebaseESP8266.h>
 #include  <ESP8266WiFi.h>
 
-#define ssid "HGW-F89FEC"  //WiFi SSID
-#define password "8700099615"  //WiFi Password
+#define ssid "Placementcell"  //WiFi SSID
+#define password "870****615"  //WiFi Password
 #define FIREBASE_HOST "msitxxxxxxxxxxxxxxxxxxx.firebaseio.com"  
 #define FIREBASE_AUTH "jZhoxxxxxxxxxxxxxxxxxxxxxxxxxxxxTR6CvFAv"
 #define wifiLed D4
