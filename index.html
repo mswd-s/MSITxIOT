@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "---------------------3jLsF8C8d0PTkYU",
+            authDomain: "msit--------ebaseapp.com",
+            databaseURL: "https://msit------------irebaseio.com",
+            projectId: "msi---------t",
+            storageBucket: "msit--------spot.com",
+            messagingSenderId: "32-----------02",
+            appId: "1:327882--------------------573da41bd37"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var value;
+        value = '1';
+        valuen = '0'
+        function exe(){
+            firebase.database().ref().update({
+            D1: value,
+         });
+        }
+
+        function exen(){
+            firebase.database().ref().update({
+            D1: valuen,
+         });
+        }
+
+        function first(){
+        if(document.getElementById("first").checked){
+          exe();
+        } else {
+        exen();
+        }
+     }
+
+
+    </script>
+
+    <div>
+        <h1>
+            IOT TESTING
+        </h1>
+    </div>
+    <div>
+        <input type="checkbox" id="first" onclick="first()" />
+        <p>0</p>
+    </div>
+
+</body>
+
+</html>
